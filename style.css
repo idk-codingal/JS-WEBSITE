@@ -1,0 +1,47 @@
+/* General Page Styling */
+body {
+    background-color: rgb(208, 237, 237);
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Navigation */
+.navigation {
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+.brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Navigation links */
+.navigation-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.navigation-link:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+
+/* Main content area */
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Custom row styling (safe with Bootstrap) */
+.custom-row {
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+body{
+    background-color: rgb(212, 183, 147);
+    background-image: url("bg.jpeg");
+    background-repeat: no-repeat;
+}
